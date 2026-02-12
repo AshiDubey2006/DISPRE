@@ -1,0 +1,84 @@
+{
+  "location": {
+    "latitude": 35.0,
+    "longitude": 140.0
+  },
+  "timestamp": "2025-11-22T16:04:58.129591",
+  "earthquake": {
+    "location": {
+      "latitude": 35.0,
+      "longitude": 140.0
+    },
+    "depth_km": 10,
+    "risk_score": 0.37946806693636703,
+    "risk_level": "MODERATE",
+    "predicted_magnitude_range": [
+      4.4,
+      7.4
+    ],
+    "expected_magnitude": 5.9,
+    "probability_magnitude_gt_5": 0.4,
+    "probability_magnitude_gt_7": 0.15,
+    "tectonic_zone": "Japan (ring_of_fire)",
+    "recommendation": "Increase monitoring frequency",
+    "timestamp": "2025-11-22T16:04:58.131484"
+  },
+  "flood": {
+    "rainfall_mm": 75,
+    "soil_moisture": 0.5,
+    "elevation_m": 500,
+    "slope_degrees": 5,
+    "risk_score": 0.9341354272878676,
+    "risk_level": "CRITICAL",
+    "predicted_water_depth_m": 4.375,
+    "flood_probability": 1.0,
+    "warning_level": "RED",
+    "affected_area_sq_km": 58.38346420549172,
+    "flood_prone_region": "Moderate flood-prone area",
+    "recommendation": "FLOOD WARNING - Evacuate immediately. All personnel to safe zones.",
+    "timestamp": "2025-11-22T16:04:58.131952"
+  },
+  "tsunami": {
+    "earthquake": {
+      "magnitude": 6.0,
+      "depth_km": 10,
+      "location": {
+        "latitude": 35.0,
+        "longitude": 140.0
+      }
+    },
+    "tsunami_wave": {
+      "maximum_height_m": 0.0036528017800897664,
+      "estimated_speed_ms": 140.07141035914503,
+      "period_minutes": 5.949346345529435
+    },
+    "coastal_impact": {
+      "estimated_inundation_depth_m": 0.0007305603560179533,
+      "maximum_run_up_m": 0.000109584053402693,
+      "affected_area_sq_km": 0.00026685921689253934
+    },
+    "timing": {
+      "travel_time_hours": 1.2850588106343581,
+      "arrival_time": "2025-11-22T17:22:04.348861",
+      "time_to_escape_minutes": 47.10352863806149
+    },
+    "risk_assessment": {
+      "risk_score": 0.5198209446428057,
+      "risk_level": "LOW",
+      "threat_level": "ADVISORY",
+      "coastal_vulnerability": 0.9,
+      "in_major_subduction_zone": true
+    },
+    "recommendation": "Monitor earthquake reports. No immediate action needed.",
+    "timestamp": "2025-11-22T16:04:58.137183"
+  },
+  "summary": {
+    "location_name": "Location (35.00\u00b0, 140.00\u00b0)",
+    "overall_risk_level": "MODERATE",
+    "primary_threat": "Variable by location",
+    "secondary_threats": [
+      "Flooding",
+      "Seismic activity"
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700">
+  <style>
+    .box { fill: #f7fbff; stroke: #2b6cb0; stroke-width:2; rx:8; }
+    .box-strong { fill: #e6f0ff; stroke: #1e40af; stroke-width:3; rx:10; }
+    .text { font-family: Arial, Helvetica, sans-serif; font-size:14px; fill: #0b2336 }
+    .title { font-family: Arial, Helvetica, sans-serif; font-size:18px; font-weight:700; fill:#05283a }
+    .small { font-size:12px; fill:#16324b }
+    .arrow { stroke:#0b2336; stroke-width:2; marker-end: url(#arrowhead); }
+  </style>
+
+  <!-- Arrowhead definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#0b2336" />
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="30" y="30" class="title">DISPRE - Project Architecture</text>
+  <text x="30" y="50" class="small">(generated: 2025-11-21)</text>
+
+  <!-- Left: Entry points -->
+  <rect x="30" y="80" width="260" height="120" class="box-strong" />
+  <text x="50" y="105" class="text">Entry Points</text>
+  <text x="50" y="130" class="small">`main.py` (CLI runner)</text>
+  <text x="50" y="150" class="small">`api_server.py` (Flask API)</text>
+
+  <!-- Center: Orchestrator -->
+  <rect x="430" y="100" width="260" height="100" class="box-strong" />
+  <text x="470" y="130" class="text">`DISPREEngine`</text>
+  <text x="470" y="150" class="small">Orchestrator / aggregator</text>
+
+  <!-- Arrows from entry to engine -->
+  <line x1="290" y1="130" x2="430" y2="130" class="arrow" />
+
+  <!-- Top: Data layer -->
+  <rect x="430" y="10" width="620" height="70" class="box" />
+  <text x="450" y="35" class="text">Data Layer</text>
+  <text x="450" y="55" class="small">`src/data/data_loader.py` — USGS, IMERG, ERA5; synthetic generators (365-day rainfall)</text>
+
+  <!-- Arrow from data to engine -->
+  <line x1="740" y1="80" x2="740" y2="100" class="arrow" />
+
+  <!-- Right: Output layer -->
+  <rect x="430" y="230" width="620" height="120" class="box" />
+  <text x="450" y="255" class="text">Output / Visualization</text>
+  <text x="450" y="275" class="small">`src/visualization/visualizer.py` — HTML reports, PNG charts</text>
+  <text x="450" y="295" class="small">`output/` — `*.html`, `*_data.json`, `*.png`</text>
+
+  <!-- Arrow from engine to output -->
+  <line x1="690" y1="200" x2="690" y2="230" class="arrow" />
+
+  <!-- Lower-left: Models cluster -->
+  <rect x="60" y="240" width="330" height="300" class="box" />
+  <text x="75" y="265" class="text">Models (src/models/)</text>
+
+  <rect x="90" y="290" width="260" height="60" class="box-strong" />
+  <text x="110" y="315" class="text">`earthquake.py`</text>
+  <text x="110" y="335" class="small">GradientBoostingRegressor — synthetic features</text>
+
+  <rect x="90" y="360" width="260" height="60" class="box-strong" />
+  <text x="110" y="385" class="text">`flood.py`</text>
+  <text x="110" y="405" class="small">GradientBoostingRegressor — rainfall, topo</text>
+
+  <rect x="90" y="430" width="260" height="60" class="box-strong" />
+  <text x="110" y="455" class="text">`tsunami.py`</text>
+  <text x="110" y="475" class="small">RandomForestRegressor + physics (travel time)</text>
+
+  <!-- Arrow from models to engine -->
+  <line x1="390" y1="400" x2="430" y2="150" class="arrow" />
+
+  <!-- Bottom: Data & storage -->
+  <rect x="430" y="380" width="260" height="120" class="box" />
+  <text x="450" y="405" class="text">Data & Storage</text>
+  <text x="450" y="425" class="small">`data/` raw inputs, `logs/` app logs</text>
+  <text x="450" y="445" class="small">`output/` produced reports</text>
+
+  <!-- Arrow engine -> data storage -->
+  <line x1="560" y1="200" x2="560" y2="380" class="arrow" />
+
+  <!-- Right column: Dependencies and runtime -->
+  <rect x="760" y="370" width="290" height="220" class="box" />
+  <text x="780" y="395" class="text">Dependencies & Runtime</text>
+  <text x="780" y="415" class="small">Python 3.7+</text>
+  <text x="780" y="435" class="small">Core libs: `numpy`, `pandas`, `scikit-learn`, `matplotlib`</text>
+  <text x="780" y="455" class="small">Geo libs: `rasterio`, `geopandas`, `pyproj`</text>
+  <text x="780" y="475" class="small">Optional: `tensorflow`, `dask`, `flask` (API)</text>
+  <text x="780" y="495" class="small">Run: `python main.py` or `python api_server.py`</text>
+
+  <!-- Legend -->
+  <rect x="30" y="560" width="1040" height="120" class="box" />
+  <text x="50" y="585" class="text">Legend</text>
+  <text x="50" y="605" class="small">- Boxes: components/files</text>
+  <text x="50" y="625" class="small">- Arrows: data/control flow</text>
+  <text x="50" y="645" class="small">- Engine centralizes model training/prediction and report generation</text>
+
+</svg>

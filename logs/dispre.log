@@ -1,0 +1,115 @@
+2025-11-21 18:12:53,580 - dispre_engine - INFO - DISPRE Engine initialized successfully
+2025-11-21 18:12:53,583 - dispre_engine - INFO - Training all prediction models...
+2025-11-21 18:12:53,584 - models.earthquake - INFO - Generating 500 synthetic earthquake training samples
+2025-11-21 18:12:53,632 - models.earthquake - INFO - Training earthquake model with 500 samples
+2025-11-21 18:12:54,090 - models.earthquake - INFO - Earthquake model trained successfully
+2025-11-21 18:12:54,090 - models.flood - INFO - Generating 500 synthetic flood training samples
+2025-11-21 18:12:54,142 - models.flood - INFO - Training flood model with 500 samples
+2025-11-21 18:12:54,574 - models.flood - INFO - Flood model trained successfully
+2025-11-21 18:12:54,575 - models.tsunami - INFO - Generating 500 synthetic tsunami training samples
+2025-11-21 18:12:54,632 - models.tsunami - INFO - Training tsunami model with 500 samples
+2025-11-21 18:12:55,249 - models.tsunami - INFO - Tsunami model trained successfully
+2025-11-21 18:12:55,249 - dispre_engine - INFO - All models trained successfully
+2025-11-21 18:12:55,251 - dispre_engine - INFO - Running multi-hazard prediction for (35.0, 140.0)
+2025-11-21 18:12:55,266 - dispre_engine - WARNING - EMERGENCY ALERT: 1 critical hazard(s) detected
+2025-11-21 18:12:55,268 - dispre_engine - INFO - Running multi-hazard prediction for (36.5, -120.5)
+2025-11-21 18:12:55,299 - dispre_engine - WARNING - EMERGENCY ALERT: 1 critical hazard(s) detected
+2025-11-21 18:12:55,302 - dispre_engine - INFO - Running multi-hazard prediction for (-8.5, 95.0)
+2025-11-21 18:12:55,329 - dispre_engine - WARNING - EMERGENCY ALERT: 1 critical hazard(s) detected
+2025-11-21 18:12:55,332 - dispre_engine - INFO - Running multi-hazard prediction for (28.5, 84.0)
+2025-11-21 18:12:55,373 - dispre_engine - WARNING - EMERGENCY ALERT: 1 critical hazard(s) detected
+2025-11-21 18:12:55,377 - dispre_engine - INFO - Creating comprehensive report: dispre_report_Pacific_Ring_of_Fire_(Japan)
+2025-11-21 18:13:21,298 - dispre_engine - INFO - DISPRE Engine initialized successfully
+2025-11-21 18:13:21,299 - dispre_engine - INFO - Training all prediction models...
+2025-11-21 18:13:21,300 - models.earthquake - INFO - Generating 500 synthetic earthquake training samples
+2025-11-21 18:13:21,325 - models.earthquake - INFO - Training earthquake model with 500 samples
+2025-11-21 18:13:21,693 - models.earthquake - INFO - Earthquake model trained successfully
+2025-11-21 18:13:21,693 - models.flood - INFO - Generating 500 synthetic flood training samples
+2025-11-21 18:13:21,738 - models.flood - INFO - Training flood model with 500 samples
+2025-11-21 18:13:22,008 - models.flood - INFO - Flood model trained successfully
+2025-11-21 18:13:22,008 - models.tsunami - INFO - Generating 500 synthetic tsunami training samples
+2025-11-21 18:13:22,033 - models.tsunami - INFO - Training tsunami model with 500 samples
+2025-11-21 18:13:22,589 - models.tsunami - INFO - Tsunami model trained successfully
+2025-11-21 18:13:22,589 - dispre_engine - INFO - All models trained successfully
+2025-11-21 18:13:22,591 - dispre_engine - INFO - Running multi-hazard prediction for (35.0, 140.0)
+2025-11-21 18:13:22,604 - dispre_engine - WARNING - EMERGENCY ALERT: 1 critical hazard(s) detected
+2025-11-21 18:13:22,605 - dispre_engine - INFO - Running multi-hazard prediction for (36.5, -120.5)
+2025-11-21 18:13:22,620 - dispre_engine - WARNING - EMERGENCY ALERT: 1 critical hazard(s) detected
+2025-11-21 18:13:22,622 - dispre_engine - INFO - Running multi-hazard prediction for (-8.5, 95.0)
+2025-11-21 18:13:22,638 - dispre_engine - WARNING - EMERGENCY ALERT: 1 critical hazard(s) detected
+2025-11-21 18:13:22,639 - dispre_engine - INFO - Running multi-hazard prediction for (28.5, 84.0)
+2025-11-21 18:13:22,656 - dispre_engine - WARNING - EMERGENCY ALERT: 1 critical hazard(s) detected
+2025-11-21 18:13:22,656 - dispre_engine - INFO - Creating comprehensive report: dispre_report_Pacific_Ring_of_Fire_(Japan)
+2025-11-21 18:13:22,659 - visualization.visualizer - INFO - Saved HTML report to ./output/dispre_report_Pacific_Ring_of_Fire_(Japan).html
+2025-11-21 18:13:26,648 - visualization.visualizer - INFO - Saved risk comparison chart to ./output/risk_comparison.png
+2025-11-21 18:13:26,653 - dispre_engine - INFO - Report created successfully at ./output
+2025-11-21 19:33:09,987 - dispre_engine - INFO - DISPRE Engine initialized successfully
+2025-11-21 19:33:09,988 - dispre_engine - INFO - Training all prediction models...
+2025-11-21 19:33:09,988 - models.earthquake - INFO - Generating 500 synthetic earthquake training samples
+2025-11-21 19:33:10,011 - models.earthquake - INFO - Training earthquake model with 500 samples
+2025-11-21 19:33:10,297 - models.earthquake - INFO - Earthquake model trained successfully
+2025-11-21 19:33:10,298 - models.flood - INFO - Generating 500 synthetic flood training samples
+2025-11-21 19:33:10,335 - models.flood - INFO - Training flood model with 500 samples
+2025-11-21 19:33:10,582 - models.flood - INFO - Flood model trained successfully
+2025-11-21 19:33:10,582 - models.tsunami - INFO - Generating 500 synthetic tsunami training samples
+2025-11-21 19:33:10,605 - models.tsunami - INFO - Training tsunami model with 500 samples
+2025-11-21 19:33:11,088 - models.tsunami - INFO - Tsunami model trained successfully
+2025-11-21 19:33:11,088 - dispre_engine - INFO - All models trained successfully
+2025-11-21 19:33:11,089 - dispre_engine - INFO - Running multi-hazard prediction for (35.0, 140.0)
+2025-11-21 19:33:11,102 - dispre_engine - WARNING - EMERGENCY ALERT: 1 critical hazard(s) detected
+2025-11-21 19:33:11,102 - dispre_engine - INFO - Running multi-hazard prediction for (36.5, -120.5)
+2025-11-21 19:33:11,112 - dispre_engine - WARNING - EMERGENCY ALERT: 1 critical hazard(s) detected
+2025-11-21 19:33:11,112 - dispre_engine - INFO - Running multi-hazard prediction for (-8.5, 95.0)
+2025-11-21 19:33:11,124 - dispre_engine - WARNING - EMERGENCY ALERT: 1 critical hazard(s) detected
+2025-11-21 19:33:11,126 - dispre_engine - INFO - Running multi-hazard prediction for (28.5, 84.0)
+2025-11-21 19:33:11,136 - dispre_engine - WARNING - EMERGENCY ALERT: 1 critical hazard(s) detected
+2025-11-21 19:33:11,137 - dispre_engine - INFO - Creating comprehensive report: dispre_report_Pacific_Ring_of_Fire_(Japan)
+2025-11-21 19:33:11,140 - visualization.visualizer - INFO - Saved HTML report to ./output/dispre_report_Pacific_Ring_of_Fire_(Japan).html
+2025-11-21 19:33:43,688 - dispre_engine - INFO - DISPRE Engine initialized successfully
+2025-11-21 19:33:43,691 - dispre_engine - INFO - Training all prediction models...
+2025-11-21 19:33:43,691 - models.earthquake - INFO - Generating 500 synthetic earthquake training samples
+2025-11-21 19:33:43,719 - models.earthquake - INFO - Training earthquake model with 500 samples
+2025-11-21 19:33:44,003 - models.earthquake - INFO - Earthquake model trained successfully
+2025-11-21 19:33:44,003 - models.flood - INFO - Generating 500 synthetic flood training samples
+2025-11-21 19:33:44,041 - models.flood - INFO - Training flood model with 500 samples
+2025-11-21 19:33:44,307 - models.flood - INFO - Flood model trained successfully
+2025-11-21 19:33:44,308 - models.tsunami - INFO - Generating 500 synthetic tsunami training samples
+2025-11-21 19:33:44,330 - models.tsunami - INFO - Training tsunami model with 500 samples
+2025-11-21 19:33:44,785 - models.tsunami - INFO - Tsunami model trained successfully
+2025-11-21 19:33:44,785 - dispre_engine - INFO - All models trained successfully
+2025-11-21 19:33:44,787 - dispre_engine - INFO - Running multi-hazard prediction for (35.0, 140.0)
+2025-11-21 19:33:44,797 - dispre_engine - WARNING - EMERGENCY ALERT: 1 critical hazard(s) detected
+2025-11-21 19:33:44,798 - dispre_engine - INFO - Running multi-hazard prediction for (36.5, -120.5)
+2025-11-21 19:33:44,809 - dispre_engine - WARNING - EMERGENCY ALERT: 1 critical hazard(s) detected
+2025-11-21 19:33:44,810 - dispre_engine - INFO - Running multi-hazard prediction for (-8.5, 95.0)
+2025-11-21 19:33:44,821 - dispre_engine - WARNING - EMERGENCY ALERT: 1 critical hazard(s) detected
+2025-11-21 19:33:44,822 - dispre_engine - INFO - Running multi-hazard prediction for (28.5, 84.0)
+2025-11-21 19:33:44,831 - dispre_engine - WARNING - EMERGENCY ALERT: 1 critical hazard(s) detected
+2025-11-21 19:33:44,832 - dispre_engine - INFO - Creating comprehensive report: dispre_report_Pacific_Ring_of_Fire_(Japan)
+2025-11-21 19:33:44,837 - visualization.visualizer - INFO - Saved HTML report to ./output/dispre_report_Pacific_Ring_of_Fire_(Japan).html
+2025-11-21 19:33:46,110 - visualization.visualizer - INFO - Saved risk comparison chart to ./output/risk_comparison.png
+2025-11-21 19:33:46,115 - dispre_engine - INFO - Report created successfully at ./output
+2025-11-22 16:04:57,305 - dispre_engine - INFO - DISPRE Engine initialized successfully
+2025-11-22 16:04:57,306 - dispre_engine - INFO - Training all prediction models...
+2025-11-22 16:04:57,307 - models.earthquake - INFO - Generating 500 synthetic earthquake training samples
+2025-11-22 16:04:57,323 - models.earthquake - INFO - Training earthquake model with 500 samples
+2025-11-22 16:04:57,516 - models.earthquake - INFO - Earthquake model trained successfully
+2025-11-22 16:04:57,517 - models.flood - INFO - Generating 500 synthetic flood training samples
+2025-11-22 16:04:57,543 - models.flood - INFO - Training flood model with 500 samples
+2025-11-22 16:04:57,745 - models.flood - INFO - Flood model trained successfully
+2025-11-22 16:04:57,746 - models.tsunami - INFO - Generating 500 synthetic tsunami training samples
+2025-11-22 16:04:57,763 - models.tsunami - INFO - Training tsunami model with 500 samples
+2025-11-22 16:04:58,127 - models.tsunami - INFO - Tsunami model trained successfully
+2025-11-22 16:04:58,127 - dispre_engine - INFO - All models trained successfully
+2025-11-22 16:04:58,129 - dispre_engine - INFO - Running multi-hazard prediction for (35.0, 140.0)
+2025-11-22 16:04:58,137 - dispre_engine - WARNING - EMERGENCY ALERT: 1 critical hazard(s) detected
+2025-11-22 16:04:58,138 - dispre_engine - INFO - Running multi-hazard prediction for (36.5, -120.5)
+2025-11-22 16:04:58,145 - dispre_engine - WARNING - EMERGENCY ALERT: 1 critical hazard(s) detected
+2025-11-22 16:04:58,146 - dispre_engine - INFO - Running multi-hazard prediction for (-8.5, 95.0)
+2025-11-22 16:04:58,154 - dispre_engine - WARNING - EMERGENCY ALERT: 1 critical hazard(s) detected
+2025-11-22 16:04:58,155 - dispre_engine - INFO - Running multi-hazard prediction for (28.5, 84.0)
+2025-11-22 16:04:58,168 - dispre_engine - WARNING - EMERGENCY ALERT: 1 critical hazard(s) detected
+2025-11-22 16:04:58,169 - dispre_engine - INFO - Creating comprehensive report: dispre_report_Pacific_Ring_of_Fire_(Japan)
+2025-11-22 16:04:58,173 - visualization.visualizer - INFO - Saved HTML report to ./output/dispre_report_Pacific_Ring_of_Fire_(Japan).html
+2025-11-22 16:05:00,616 - visualization.visualizer - INFO - Saved risk comparison chart to ./output/risk_comparison.png
+2025-11-22 16:05:00,619 - dispre_engine - INFO - Report created successfully at ./output
