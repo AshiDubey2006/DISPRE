@@ -2,6 +2,12 @@
 
 A comprehensive disaster prediction system for earthquake, flood, and tsunami hazard assessment using climate and atmospheric datasets.
 
+**## 👥 Team
+- Ashi Dubey
+- Arpit Suman
+- Shakti Singh
+- Aaryan Gupta
+  
 ## 🌍 Overview
 
 DISPRE is an advanced multi-hazard prediction engine that combines machine learning models with real-world climate data to provide accurate risk assessments for:
