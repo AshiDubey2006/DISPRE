@@ -2,7 +2,7 @@
 
 A comprehensive disaster prediction system for earthquake, flood, and tsunami hazard assessment using climate and atmospheric datasets.
 
-**## 👥 Team
+## 👥 Team
 - Ashi Dubey
 - Arpit Suman
 - Shakti Singh
